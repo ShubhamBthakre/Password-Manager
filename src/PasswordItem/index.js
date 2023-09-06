@@ -22,7 +22,11 @@ const PasswordItem = props => {
           {isShowPasswordChecked ? (
             <p className="website-text">{password}</p>
           ) : (
-            <p className="website-text">*********</p>
+            <img
+              src="https://assets.ccbp.in/frontend/react-js/password-manager-stars-img.png"
+              alt="stars"
+              className="stars-img"
+            />
           )}
         </div>
       </div>
